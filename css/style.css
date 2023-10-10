@@ -45,3 +45,8 @@ body {
     object-fit: cover;
     object-position: 20% 70%;
 }
+
+.projects-button-text {
+    text-decoration: none;
+    color: black;
+}
