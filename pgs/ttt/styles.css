@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(33, 33, 66);
+}
+
+h1 {
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+/* td {
+    border: 1px solid white;
+} */
+
+.cell {
+    /* background-color: black; */
+    height: 200px;
+    width: 200px;
+}
