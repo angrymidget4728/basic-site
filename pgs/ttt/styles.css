@@ -36,3 +36,50 @@ td {
     height: 250px;
     width: 250px;
 }
+
+.board {
+    margin: 2rem;
+}
+
+.score-head {
+    padding: 20px;
+    margin: 0px;
+    font-size: 5rem;
+}
+
+.board-cell {
+    border: 0px;
+}
+
+.button-container{
+    display: flex;
+    /* width: 100%; */
+    justify-content: center;
+    /* background-color: white; */
+}
+
+.button {
+    font-family: Arial;
+    font-size: 2rem;
+    background-color: silver;
+    margin: 1rem;
+    color: rgb(33, 33, 66);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: white;
+}
+
+.inactive {
+    background-color: transparent;
+    border: 1px, solid, white;
+    color: white;
+    cursor: auto;
+}
+
+.inactive:hover{
+    background-color: transparent;
+}

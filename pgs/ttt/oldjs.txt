@@ -1,0 +1,37 @@
+// function gameCondition (cellNum, cellState) {
+//     // Set board state and checking params
+//     const row = Math.floor(cellNum/3);
+//     const col = cellNum % 3;
+//     cellText[row][col] = cellState;
+//     const cellStreak = 3;
+//     // console.log(cellText);
+
+//     // Check col
+//     for (var i=0; i<cellStreak; i++) {
+//         if (cellText[i][col] != cellState) break;
+//         if (i == cellStreak - 1) return 1;
+//     }
+
+//     // Check row
+//     for (var i=0; i<cellStreak; i++) {
+//         if (cellText[row][i] != cellState) break;
+//         if (i == cellStreak - 1) return 1;
+//     }
+
+//     // Check diag
+//     for (var i=0; i<cellStreak; i++) {
+//         if (cellText[i][i] != cellState) break;
+//         if (i == cellStreak - 1) return 1;
+//     }
+
+//     // Check r-diag
+//     for (var i=0; i<cellStreak; i++) {
+//         if (cellText[i][cellStreak-1-i] != cellState) break;
+//         if (i == cellStreak - 1) return 1;
+//     }
+
+//     // console.log(turnCount);
+//     if (turnCount >= 9) return 2;
+
+//     return 0;
+// }
